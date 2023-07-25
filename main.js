@@ -1,5 +1,5 @@
 var myArray = []
-let url = 'https://api.jikan.moe/v3'
+let url = 'https://api.jikan.moe/v4'
 
 $( document ).ready(function() {
     switch ($('#filter').val()) {
