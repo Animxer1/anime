@@ -180,7 +180,7 @@ function buildAnime(data){
                                     </div>
                                     <p>${(data[i].synopsis != null) ? data[i].synopsis : ''}</p>
                                     <a href=${data[i].url} target="_blank" class="btn btn-secondary">Details</a>
-                                    <a href='https://www12.9anime.to/search?keyword=${data[i].title}' target="_blank" class="btn btn-primary">Watch</a>
+                                    <a href='https://9anime.to/search?keyword=${data[i].title}' target="_blank" class="btn btn-primary">Watch</a>
                             </div>
                         `
             animeList.querySelector('.row').innerHTML += anime
